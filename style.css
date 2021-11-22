@@ -1,0 +1,26 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+    background-color: ghostwhite;
+    color: darkblue;
+    font-weight: 900;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+
+@keyframes anime{
+	0%{transform: translateX(5px)}
+	25%{transform: translateX(10px)}
+	50%{transform: translateX(15px)}
+	75%{transform: translateX(20px)}
+	100%{transform: translateX(25px)}
+	0%{transform: translateX(5px)}
+}
+
+h1, h2 {
+    animation-name: anime;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
